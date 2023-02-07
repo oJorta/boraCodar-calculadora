@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boraCodar - Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="calculator-container">
+
+            <div id="calculator-screen">
+                <p class="previous-operation"></p>
+                <div class="result-container">
+                    <i class="ph-equals"></i>
+                    <p id="result"></p>
+                </div>
+            </div>
+
+            <div id="calculator-keyboard">
+                <button id="ce-key">CE</button>
+                <button id="c-key">C</button>
+                <button class="operation" id="percent">%</button>
+                <button class="operation basic-operation-key" id="divide">÷</button>
+
+                <button class="numeric-key">7</button>
+                <button class="numeric-key">8</button>
+                <button class="numeric-key">9</button>
+                <button class="operation basic-operation-key" id="multiply">×</button>
+
+                <button class="numeric-key">4</button>
+                <button class="numeric-key">5</button>
+                <button class="numeric-key">6</button>
+                <button class="operation basic-operation-key" id="subtract">-</button>
+
+                <button class="numeric-key">1</button>
+                <button class="numeric-key">2</button>
+                <button class="numeric-key">3</button>
+                <button class="operation basic-operation-key" id="add">+</button>
+
+                <button class="numeric-key" id="plus-minus">+/-</button>
+                <button class="numeric-key">0</button>
+                <button class="numeric-key">.</button>
+                <button id="result-key">=</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
